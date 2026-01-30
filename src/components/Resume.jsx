@@ -27,7 +27,7 @@ export default function Resume() {
           src="/resume/Ankan_Chakraborty_Resume.pdf"
           title="Ankan Chakraborty Resume"
           className="w-full h-full"
-        />
+        ></iframe>
       </motion.div>
     </section>
   )
