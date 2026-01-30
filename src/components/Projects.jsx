@@ -7,7 +7,7 @@ const projects = [
       "A responsive food ordering web application that allows users to browse menu items and place orders through a clean and intuitive interface. Deployed on Netlify.",
     tech: ["React", "Tailwind CSS", "JavaScript", "Netlify"],
     live: "https://warm-cajeta-10a957.netlify.app/",
-    
+    github: "https://github.com/Ankan703/-Food-Ordering-Web-App/tree/master"
   },
   {
     title: "Personal Portfolio Website",
