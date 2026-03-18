@@ -2,17 +2,33 @@ import { motion } from "framer-motion"
 
 const projects = [
   {
+    title: "Pi-Project – Voice Assistant on Raspberry Pi",
+    description:
+      "Developed a locally running voice assistant on Raspberry Pi 4 integrating speech recognition and AI APIs to perform tasks similar to Alexa.",
+    tech: ["Python", "Raspberry Pi", "Speech Recognition", "AI"],
+    live: "",
+    github: "https://github.com/Ankan703/Pi-Project",
+  },
+  {
+    title: "SSD-Model – Hand Sign Recognition",
+    description:
+      "Built a computer vision model using SSD architecture for real-time hand sign recognition and object detection.",
+    tech: ["Python", "TensorFlow", "OpenCV", "Deep Learning"],
+    live: "",
+    github: "https://github.com/Ankan703/SSD-Model-",
+  },
+  {
     title: "MOMO’s Hut – Food Ordering Web App",
     description:
-      "A responsive food ordering web application that allows users to browse menu items and place orders through a clean and intuitive interface. Deployed on Netlify.",
+      "A responsive food ordering web application that allows users to browse menu items and place orders through a clean interface. Deployed on Netlify.",
     tech: ["React", "Tailwind CSS", "JavaScript", "Netlify"],
-    live: "https://warm-cajeta-10a957.netlify.app/",
-    github: "https://github.com/Ankan703/-Food-Ordering-Web-App/tree/master"
+    live: "https://YOUR-NETLIFY-LINK.netlify.app",
+    github: "", // add if available
   },
   {
     title: "Personal Portfolio Website",
     description:
-      "A professional React-based portfolio featuring animated sections, an embedded resume viewer, and SEO optimization. Deployed on Vercel.",
+      "A professional React-based portfolio featuring animations, an embedded resume viewer, and SEO optimization. Deployed on Vercel.",
     tech: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
     live: "https://portfolio-xi-murex-87.vercel.app/",
     github: "https://github.com/Ankan703/portfolio",
@@ -21,10 +37,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section
-      id="projects"
-      className="max-w-6xl mx-auto px-4 py-20"
-    >
+    <section id="projects" className="max-w-6xl mx-auto px-4 py-20">
       <motion.h3
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

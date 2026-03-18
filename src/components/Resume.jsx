@@ -24,7 +24,7 @@ export default function Resume() {
         className="w-full h-[85vh] border border-gray-700 rounded-xl overflow-hidden"
       >
         <iframe
-          src="/resume/Ankan_Chakraborty_Resume.pdf"
+          src="/resume/Ankan Chakraborty_Resume.pdf"
           title="Ankan Chakraborty Resume"
           className="w-full h-full"
         ></iframe>
