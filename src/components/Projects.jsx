@@ -22,7 +22,7 @@ const projects = [
     description:
       "A responsive food ordering web application that allows users to browse menu items and place orders through a clean interface. Deployed on Netlify.",
     tech: ["React", "Tailwind CSS", "JavaScript", "Netlify"],
-    live: "https://YOUR-NETLIFY-LINK.netlify.app",
+    live: "https://warm-cajeta-10a957.netlify.app/",
     github: "", // add if available
   },
   {
