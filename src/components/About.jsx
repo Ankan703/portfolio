@@ -12,8 +12,9 @@ export default function About() {
     >
       <h3 className="text-3xl font-bold mb-4">About Me</h3>
       <p className="text-gray-400 leading-relaxed">
-        I'm a Computer Science Engineering student passionate about AI,
-        Data Science, and building real-world software solutions.
+        I am a Computer Science Engineering student passionate about building intelligent and scalable applications. 
+        My work includes developing AI-based systems like hand sign recognition models and building full-stack web applications such as a food ordering platform. I focus on writing clean code, creating intuitive user experiences, and optimizing performance.
+        With experience in React, Python, and cloud technologies like AWS, I continuously strive to improve my technical skills and stay updated with modern development practices.
       </p>
     </motion.section>
   )
