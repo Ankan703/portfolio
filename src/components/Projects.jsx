@@ -20,10 +20,10 @@ const projects = [
   {
     title: "MOMO’s Hut – Food Ordering Web App",
     description:
-      "A responsive food ordering web application that allows users to browse menu items and place orders through a clean interface. Deployed on Netlify.",
+      "A responsive food ordering web application that allows users to browse menu items and place orders through a clean and intuitive interface. Deployed on Netlify.",
     tech: ["React", "Tailwind CSS", "JavaScript", "Netlify"],
     live: "https://warm-cajeta-10a957.netlify.app/",
-    github: "", // add if available
+    github: "",
   },
   {
     title: "Personal Portfolio Website",
@@ -38,6 +38,8 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects" className="max-w-6xl mx-auto px-4 py-20">
+      
+      {/* Title */}
       <motion.h3
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -48,6 +50,7 @@ export default function Projects() {
         Projects
       </motion.h3>
 
+      {/* Grid */}
       <div className="grid gap-8 md:grid-cols-2">
         {projects.map((project, index) => (
           <motion.div
@@ -56,17 +59,23 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4 }}
             viewport={{ once: true }}
-            whileHover={{ y: -6 }}
+            whileHover={{
+              y: -6,
+              boxShadow: "0px 0px 20px rgba(59,130,246,0.4)",
+            }}
             className="bg-gray-900 border border-gray-700 rounded-2xl p-6"
           >
+            {/* Title */}
             <h4 className="text-xl font-semibold mb-2">
               {project.title}
             </h4>
 
+            {/* Description */}
             <p className="text-gray-400 mb-4">
               {project.description}
             </p>
 
+            {/* Tech stack */}
             <div className="flex flex-wrap gap-2 mb-4">
               {project.tech.map((t, i) => (
                 <span
@@ -78,6 +87,7 @@ export default function Projects() {
               ))}
             </div>
 
+            {/* Links */}
             <div className="flex gap-4">
               {project.github && (
                 <a
